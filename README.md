@@ -1,7 +1,7 @@
 # SpacePhenotyper
 SpacePhenotyper: A computational method introduces a framework for translating information between different (but related) types of data
 
-# Installing required Python packages
+## Installing required Python packages
 
 #### OS console/terminal
 
@@ -35,7 +35,7 @@ subprocess.check_call([
 ```
 
 
-# Usage in Python
+## Usage in Python
 
 #### Example
 
@@ -62,7 +62,7 @@ dfPredictions = SpacePhenotyper.SpacePhenotyper_TrainAndPredict(dfBulk, dfPhi, d
 - `dfPredictions` (`pandas.DataFrame`): DataFrame of predictions of phenotype quantities in SRT spots. Columns `array_row` and `array_col` are the y and x coordinates, and the column `SpacePhenotyper` contains the predicted phenotype quantity.
 
 
-# How to run on the data used in the paper
+## How to run on the data used in the paper
 
 The `./SpacePhenotyper/main.py` file contains a short number of lines needed to reproduce the results of the SpacePhenotyper paper, and it can be run directly from console via `python main.py` or its contents can be imported into a Jupyter notebook.
 
@@ -70,6 +70,6 @@ All the used real and synthetic data is found in the `Data` folder.
 
 It makes use of the `SpacePhenotyper.SpacePhenotyper_IOWrapper()` function that handles some of the IO details for the data used in the paper, and all the output data is stored in the folder represented by the provided `outputRoot` parameter.
 
-# Reproducing the synthetic data generation
+## Reproducing the synthetic data generation
 
 See `README.txt` in the Simulator folder.
