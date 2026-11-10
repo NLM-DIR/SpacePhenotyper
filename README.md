@@ -64,7 +64,7 @@ dfPredictions = SpacePhenotyper.SpacePhenotyper_TrainAndPredict(dfBulk, dfPhi, d
 
 ## How to run on the data used in the paper
 
-The `./SpacePhenotyper/main.py` file contains a short number of lines needed to reproduce the results of the SpacePhenotyper paper, and it can be run directly from console via `python main.py` or its contents can be imported into a Jupyter notebook.
+The `./SpacePhenotyper-code/main.py` file contains a short number of lines needed to reproduce the results of the SpacePhenotyper paper, and it can be run directly from console via `python main.py` or its contents can be imported into a Jupyter notebook.
 
 All the used real and synthetic data is found in the `Data` folder.
 
