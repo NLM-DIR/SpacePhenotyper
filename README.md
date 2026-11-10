@@ -62,8 +62,6 @@ dfPredictions = SpacePhenotyper.SpacePhenotyper_TrainAndPredict(dfBulk, dfPhi, d
 - `dfPredictions` (`pandas.DataFrame`): DataFrame of predictions of phenotype quantities in SRT spots. Columns `array_row` and `array_col` are the y and x coordinates, and the column `SpacePhenotyper` contains the predicted phenotype quantity.
 
 
-
-
 # How to run on the data used in the paper
 
 The `./SpacePhenotyper/main.py` file contains a short number of lines needed to reproduce the results of the SpacePhenotyper paper, and it can be run directly from console via `python main.py` or its contents can be imported into a Jupyter notebook.
@@ -75,5 +73,3 @@ It makes use of the `SpacePhenotyper.SpacePhenotyper_IOWrapper()` function that 
 # Reproducing the synthetic data generation
 
 See `README.txt` in the Simulator folder.
-
-# Paper(https://www.biorxiv.org/content/10.64898/2025.12.12.693322v1)
