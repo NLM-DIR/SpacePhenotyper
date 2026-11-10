@@ -76,19 +76,4 @@ It makes use of the `SpacePhenotyper.SpacePhenotyper_IOWrapper()` function that 
 
 See `README.txt` in the Simulator folder.
 
-#### Python [Package](code)
-* The SpacePhenotyper method is implemented in python and the codes are available as [Python Code](code/SpacePhenotyper.py) and [Jupyter Notebook](code/SpacePhenotyper.ipynb) modules.
-
-#### Bulk data sets [Data Bulk](Bulk-data)
-The phenotype quantity of patients (Tumor purity (TP), Hazard, Residual cancer burden (RCB), Immune and Proliferation) and bulk gene expression matrices whose columns represent the genes and rows represent patients
-#### SRT data sets [Data SRT](SRT-data)
-For each of the SRT samples, the spatially resolved transcriptomics (SRT) gene expression data matrix whose columns represent spots and rows represent genes, and spot locations denoting the spatial location of spots in the tissue slice
-
-#### Results of the bulk data analysis [Result](result)
-The following files summarizes the results on bulk data of cancer patients.
-* Genes are sorted by their predictive values in the Eigen-Patients for the 5 phenotypes [Eigen-Patients](result/Eigen-Patients.xlsx).
-* GO terms enriched for the sorted list of top predictor genes [GO terms for predictors](result/Enriched-GO-terms.xlsx). The GO terms enriched for top negative and positive predictors in Eigen-Patient.
-#### Results of the SRT data analysis [Result](result)
-The following files summarizes the results on spatial transcriptomics (SRT) data
-* Relative quantity of phenotypes predicted on spots [Predicted-CosineSimilarity](result/Prediction-CosineSimilarity.xlsx). Prediction of phenotype quantity on spots are measured based on cosine similarity between Eigen-Patient and SRT gene expression in each spot.
-* Heatmap plots visualize the predicted phenotype quantity over spatial locations [Prediction Plots](result)
+# Paper(https://www.biorxiv.org/content/10.64898/2025.12.12.693322v1)
