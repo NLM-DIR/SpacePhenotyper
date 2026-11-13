@@ -73,3 +73,7 @@ It makes use of the `SpacePhenotyper.SpacePhenotyper_IOWrapper()` function that 
 ## Reproducing the synthetic data generation
 
 See `README.txt` in the Simulator folder.
+
+## Paper
+Connecting spatial regions to clinical phenotypes by transferring knowledge from bulk gene expression data
+https://www.biorxiv.org/content/10.64898/2025.12.12.693322v2
